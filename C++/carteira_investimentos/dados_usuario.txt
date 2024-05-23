@@ -1,0 +1,7 @@
+usuario;saldo
+João;200
+idAcao;qtdCompra;valorCompra
+0;80;22.79
+1;50;78.67
+2;40;6.24
+3;90;26.92

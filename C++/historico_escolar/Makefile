@@ -1,0 +1,35 @@
+##################################################################
+# UNIVERSIDADE FEDERAL DO RIO DE JANEIRO
+#
+# Autor: Leonardo Fachetti Jovêncio
+# Curso: Engenharia eletrônia e de computação
+#
+# Disciplina: Linguagens de programação - 2023.2
+# Professor: Miguel Elias Mitre Campista
+#
+# Data: 02/11/2023
+# Arquivo: Mekefile
+# Descrição: Arquivo referente ao makefile do programa.
+##################################################################
+
+# INFO DE COMANDOS:
+# 	make ou make all	 -> gera o executável do programa
+# 	make run   		 -> roda o programa
+# 	make clean 		 -> apaga todos os arquivos
+##################################################################
+
+all:
+	g++ -Wall -c disciplina.cpp
+	g++ -Wall -c historico.cpp
+	g++ -Wall -c funcoes_auxiliares.cpp
+	g++ -Wall -c main.cpp
+	g++ -Wall -o programa disciplina.o historico.o funcoes_auxiliares.o main.o
+
+run:
+	./programa
+
+link:
+	g++ -Wall -o programa disciplina.o historico.o funcoes_auxiliares.o main.o
+
+clean:
+	rm -f *.o programa

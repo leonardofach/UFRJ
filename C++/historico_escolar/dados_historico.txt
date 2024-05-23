@@ -1,0 +1,10 @@
+2020.1;Cálculo I;4;8.1
+2021.1;Cálculo II;4;7.8
+2022.1;Física III;4;7.3
+2022.2;Cálculo III;4;8.3
+2022.2;Eletrônica I;5;7.9
+2023.1;Eletrônica II;5;7.1
+2023.1;Sistemas Lineares II;5;5.7
+2023.2;Controle Linear I;5;8.7
+2024.1;Comunicações II;5;8.1
+2024.1;Eletrônica III;5;8.4
